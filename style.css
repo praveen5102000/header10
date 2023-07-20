@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.par {
+    display: flex;
+    padding: 26px;
+    background-color: #f81ada;
+}
+.name{
+    width: 20%;
+}
+.details{
+    width: 40%;
+}
+ul.social {
+    display: flex;
+    color: white;
+    padding-left: 140%;
+}
+.social li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-right: 46px;
+}
+.name p{
+    color: #fff;
+    padding-top: 4px;
+    font-family: serif;
+    font-size: x-large;
+}
+.first li{
+    list-style: none;
+}
+.name {
+    width: 20%;
+    padding: 8px 0px 0px 40px;
+}
+.details {
+    width: 40%;
+    padding: 10px;
+}
+.social li {
+    display: inline-block;
+    vertical-align: top;
+}
+.social li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 33px;
+    padding-right: 20px
+}
+.fb > a{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.TCXRgFk1N5mv-R3N2PGbtAHaHa&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: 1px 3px;
+    background-size: 20px;
+}
+.twt > a{
+    background-image: url("https://flyclipart.com/thumb2/twitter-flat-icon-558365.png");
+    background-repeat: no-repeat;
+    background-position: 1px 3px;
+    background-size: 20px;
+}
+.ins > a{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.sMgVj7sstpb4HWQ2iKuOmAHaHa&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: 1px 3px;
+    background-size: 20px;
+}
